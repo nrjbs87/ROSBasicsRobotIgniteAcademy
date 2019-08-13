@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg ="actions_quiz"
+        type="CustomAction.py"
+        name="drone_command_via_string"
+        output="screen">
+  </node>
+
+</launch>

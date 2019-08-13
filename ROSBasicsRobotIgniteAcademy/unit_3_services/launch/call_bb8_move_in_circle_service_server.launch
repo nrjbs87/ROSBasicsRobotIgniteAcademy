@@ -1,0 +1,11 @@
+<launch>
+
+  <include file="$(find unit_3_services)/launch/start_bb8_move_in_circle_service_server.launch"/>
+
+  <node pkg ="unit_3_services"
+        type="bb8_move_in_circle_service_client.py"
+        name="move_bb8_service_client"
+        output="screen">
+  </node>
+
+</launch>

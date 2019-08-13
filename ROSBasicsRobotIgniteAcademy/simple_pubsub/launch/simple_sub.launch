@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg ="simple_pubsub"
+        type="simple_sub.py"
+        name="listener"
+        output="screen">
+  </node>
+
+</launch>
